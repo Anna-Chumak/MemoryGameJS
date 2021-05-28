@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+
+    <script src="js/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <menu>
+      <div class="home"><a href="index.html">Home</a></div>
+      <h1 id="name">Graph Memory Game</h1>
+      <div class="customize"><a href="html/customize.html">Customize</a></div>
+    </menu>
+    <main>
+      <div class="info-container">
+        <p id="level">Level: 1</p>
+        <p id="score">Score: 0</p>
+        <p id="blocks">0/1</p>
+      </div>
+      <div class="grid-container">
+        <button id="play">Play</button>
+        <div class="grid"></div>
+      </div>
+      <div class="win modal">
+        <h2>Congrats!</h2>
+        <p>You Won!</p>
+        <p class="win-score">Your score is:</p>
+        <button class="play-again">Play Again</button>
+      </div>
+      <div class="lost modal">
+        <h2>Sorry!</h2>
+        <p>You Lost!</p>
+        <button class="play-again">Try Again</button>
+      </div>
+      <div class="registration modal">
+        <form action="">
+          <div class="line">
+            <input
+              type="text"
+              name="name"
+              id="userName"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="line">
+            <input
+              type="number"
+              name="name"
+              id="userAge"
+              placeholder="Age"
+              required
+            />
+          </div>
+          <div class="line">
+            <input
+              type="email"
+              name="name"
+              id="userEmail"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <button class="start">Start</button>
+        </form>
+      </div>
+      <div class="score-board modal">
+        <h2>Score Board</h2>
+      </div>
+    </main>
+  </body>
+</html>

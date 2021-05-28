@@ -1,0 +1,32 @@
+[
+  {
+    "bright": {
+      "pageBackColor": "rgb(205, 254, 248)",
+      "gridBackColor": "rgb(255, 229, 251)",
+      "gridBorderColor": "rgb(255, 153, 252)",
+      "menuBaclColor": "rgb(248, 143, 255)",
+      "menuTextColor": "white",
+      "pageTextColor": "rgb(107, 107, 107)"
+    }
+  },
+  {
+    "light": {
+      "pageBackColor": "white",
+      "gridBackColor": "cornflowerblue",
+      "gridBorderColor": "grey",
+      "menuBaclColor": "rgb(38, 68, 124)",
+      "menuTextColor": "white",
+      "pageTextColor": "grey"
+    }
+  },
+  {
+    "dark": {
+      "pageBackColor": "rgb(99, 99, 99)",
+      "gridBackColor": "rgb(156, 156, 156)",
+      "gridBorderColor": "rgb(148, 86, 0)",
+      "menuBaclColor": "rgb(56, 56, 56)",
+      "menuTextColor": "rgb(255, 174, 0)",
+      "pageTextColor": "rgb(255), 174, 0)"
+    }
+  }
+]

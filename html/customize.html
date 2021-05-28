@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+
+    <script src="../js/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <menu>
+      <div class="home"><a href="../index.html">Home</a></div>
+      <h1 id="name">Graph Memory Game</h1>
+      <div class="customize"><a href="customize.html">Customize</a></div>
+    </menu>
+    <div class="custom-container">
+      <div class="form">
+        <form action="">
+          <div class="line pBackground">
+            <label for="pageBack"> Page Background </label>
+            <input
+              type="color"
+              name="pageBack"
+              id="pageBack"
+              class="colorpicker"
+            />
+          </div>
+          <div class="line gBackground">
+            <label for="gridBack"> Grid Background </label>
+            <input
+              type="color"
+              name="gridBack"
+              id="gridBack"
+              class="colorpicker"
+            />
+          </div>
+          <div class="line borderBackground">
+            <label for="borderBack"> Border Background </label>
+            <input
+              type="color"
+              name="borderBack"
+              id="borderBack"
+              class="colorpicker"
+            />
+          </div>
+          <div class="line menuBackground">
+            <label for="menuBack"> Menu Background </label>
+            <input
+              type="color"
+              name="menuBack"
+              id="menuBack"
+              class="colorpicker"
+            />
+          </div>
+          <div class="line textColor">
+            <label for="textColor"> Text color </label>
+            <input
+              type="color"
+              name="textColor"
+              id="textColor"
+              class="colorpicker"
+            />
+          </div>
+          <div class="line menuTextolor">
+            <label for="menuTextolor"> Menu text color </label>
+            <input
+              type="color"
+              name="menuTextolor"
+              id="menuTextolor"
+              class="colorpicker"
+            />
+          </div>
+          <div class="line colorMode">
+            <label for="colorMode"> Select mode </label>
+            <select type="select" name="colorMode" id="colorMode">
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+              <option value="bright">Bright</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="grid"></div>
+    </div>
+  </body>
+</html>

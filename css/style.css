@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "KoHo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  width: 900px;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+
+menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(38, 68, 124);
+  color: white;
+  padding: 20px 250px;
+}
+
+menu div {
+  font-size: 26px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px;
+  font-size: 24px;
+  width: 800px;
+  margin: 10px auto;
+}
+.grid {
+  background-color: cornflowerblue;
+  border: 1px solid grey;
+}
+
+.cell {
+  border: 1px solid grey;
+}
+.grid-container {
+  position: relative;
+  width: 500px;
+  margin: 20px auto;
+}
+
+#play {
+  position: absolute;
+  top: 230px;
+  left: 210px;
+  background-color: rgb(160, 160, 160);
+  border: 2px solid grey;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: rgb(54, 54, 54);
+}
+
+.custom-container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.line {
+  display: flex;
+  margin: 20px 0px;
+  justify-content: left;
+  font-size: 18pt;
+  align-items: center;
+}
+label {
+  margin: 0px 20px;
+  width: 205px;
+}
+
+select {
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.modal {
+  width: 450px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  right: 225px;
+  background-color: rgb(142, 179, 248);
+  border-radius: 30px;
+  border: 2px solid grey;
+  padding: 20px;
+  font-size: 18pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.modal button {
+  background-color: rgb(160, 160, 160);
+  border: 2px solid grey;
+  width: fit-content;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: rgb(54, 54, 54);
+}
+
+input {
+  padding: 3px 10px;
+  font-size: 12pt;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scoreLine {
+  display: flex;
+  justify-content: space-around;
+}
+.scoreLine p {
+  width: 200px;
+}
